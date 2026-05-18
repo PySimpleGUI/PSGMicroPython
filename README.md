@@ -37,6 +37,31 @@ If you have multiple COM ports or a tricky setup then you might need to change t
 
 Of course you'll need to customize both programs to match whatever you're building.
 
+## Screenshots
+
+Here are a few screenshots of my project.  I modified the template in this repo to display 6502 bus traffic.  You'll need to modify both the target MicroPython code and the Windows GUI code.
+
+
+### After uploading the Pi code
+
+Note that when you start the GUI, you'll be able to interact with the MicroPython REPL through the terminal interface.  The upload happens through the REPL.
+
+<img src="https://raw.githubusercontent.com/PySimpleGUI/PSGMicroPython/main/screenshots/Uploading.png" alt="Uploading" />
+
+
+### Running my specific application
+
+The program gets bus traffic and disassembles the opcodes it finds.
+
+<img src="https://raw.githubusercontent.com/PySimpleGUI/PSGMicroPython/main/screenshots/6502 bus analyzer.png" alt="Uploading" />
+
+### My breadboard project
+
+This mess is my first breadboard computer.  Lots of learning to get it up and running.  It's been a fun change of pace.
+
+<img src="https://raw.githubusercontent.com/PySimpleGUI/PSGMicroPython/main/screenshots/Breadboard.jpg" alt="6502 breadboard" />
+
+
 ## Post a screenshot or picture
 
 If you make something and care to share it, I'm sure other people would like to see it (I know I would).  Feel free to drop a screenshot over in the screenshots issue in the PySimpleGUI repo.
